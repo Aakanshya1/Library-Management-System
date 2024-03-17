@@ -1,8 +1,14 @@
-﻿@{
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
+<div class="text-center flex-column align-items-center">
     <h1 class="display-4">Welcome</h1>
+    <div class="d-flex align-content-center align-items-center ">
+
+
+        <a href="@Url.Action("List", "Library")" class="btn btn-primary ms-4">Go to Book List</a>
+
+    </div>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
